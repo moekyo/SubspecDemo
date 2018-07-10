@@ -1,0 +1,6 @@
+framework module SubspecDemo {
+  umbrella header "SubspecDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

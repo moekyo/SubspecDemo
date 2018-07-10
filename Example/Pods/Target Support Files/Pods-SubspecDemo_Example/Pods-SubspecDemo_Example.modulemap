@@ -1,0 +1,6 @@
+framework module Pods_SubspecDemo_Example {
+  umbrella header "Pods-SubspecDemo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -32,6 +32,17 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SubspecDemo/Classes/**/*'
   
+  
+  
+  s.subspec 'ATool' do |ss|
+      ss.source_files = 'SubspecDemo/ATool/*{h,m}'
+      ss.public_header_files = 'SubspecDemo/ATool/*.h'
+  end
+  s.subspec 'BTool' do |ss|
+      ss.source_files = 'SubspecDemo/BTool/*{h,m}'
+      ss.public_header_files = 'SubspecDemo/BTool/*.h'
+  end
+  
   # s.resource_bundles = {
   #   'SubspecDemo' => ['SubspecDemo/Assets/*.png']
   # }

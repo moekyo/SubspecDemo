@@ -1,0 +1,16 @@
+PODS:
+  - SubspecDemo (0.1.0)
+
+DEPENDENCIES:
+  - SubspecDemo (from `../`)
+
+EXTERNAL SOURCES:
+  SubspecDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SubspecDemo: 5de4855e453db6de2bb786abf84f52be946befa9
+
+PODFILE CHECKSUM: c96848c0c31f812903995fed50b0cbaba6e03bf9
+
+COCOAPODS: 1.5.0
