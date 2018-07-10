@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SubspecDemo'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SubspecDemo.'
+  s.version          = '0.1.1'
+  s.summary          = 'Test'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A Test Demo For Subspec
                        DESC
 
   s.homepage         = 'https://github.com/moekyo/SubspecDemo'
@@ -35,12 +35,12 @@ TODO: Add long description of the pod here.
   
   
   s.subspec 'ATool' do |ss|
-      ss.source_files = 'SubspecDemo/ATool/*{h,m}'
-      ss.public_header_files = 'SubspecDemo/ATool/*.h'
+      ss.source_files = 'SubspecDemo/Classes/ATool/**/*'
+      ss.public_header_files = 'SubspecDemo/Classes/ATool/*.h'
   end
   s.subspec 'BTool' do |ss|
-      ss.source_files = 'SubspecDemo/BTool/*{h,m}'
-      ss.public_header_files = 'SubspecDemo/BTool/*.h'
+      ss.source_files = 'SubspecDemo/Classes/BTool/**/*'
+      ss.public_header_files = 'SubspecDemo/Classes/BTool/*.h'
   end
   
   # s.resource_bundles = {
